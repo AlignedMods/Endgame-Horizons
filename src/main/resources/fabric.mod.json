@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "survivaloverhaul",
+	"version": "${version}",
+	"name": "Survival Overhaul",
+	"description": "This mod is about making the base game feel harder!",
+	"authors": [
+		"Aligned"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT license",
+	"icon": "assets/survivaloverhaul/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aligned.survivaloverhaul.SurvivalOverhaul"
+		],
+		"fabric-datagen": [
+			"net.aligned.survivaloverhaul.SurvivalOverhaulDataGenerator"
+		],
+		"client": [
+			"net.aligned.survivaloverhaul.SurvivalOverhaulClient"
+		]
+	},
+	"mixins": [
+		"survivaloverhaul.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.19",
+		"java": ">=17",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
