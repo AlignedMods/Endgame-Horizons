@@ -1,5 +1,7 @@
 package net.aligned.survivaloverhaul;
 
+import net.aligned.survivaloverhaul.block.ModBlocks;
+import net.aligned.survivaloverhaul.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +14,7 @@ public class SurvivalOverhaul implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModBlocks.RegisterModBlocks();
+		ModItems.RegisterModItems();
 	}
 }

@@ -8,3 +8,5 @@ public class SurvivalOverhaulClient implements ClientModInitializer {
 
     }
 }
+
+// felt silly might remove later

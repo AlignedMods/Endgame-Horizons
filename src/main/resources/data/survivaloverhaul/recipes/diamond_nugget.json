@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 2000,
+  "experience": 1.0,
+  "group": "diamond",
+  "ingredient": {
+    "item": "survivaloverhaul:diamond_chunk"
+  },
+  "result": "survivaloverhaul:diamond_nugget"
+}
