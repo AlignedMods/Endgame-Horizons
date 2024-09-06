@@ -3,7 +3,7 @@
 	"package": "net.aligned.survivaloverhaul.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"BlocksMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
