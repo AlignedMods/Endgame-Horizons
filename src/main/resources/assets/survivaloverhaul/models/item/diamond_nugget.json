@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "survivaloverhaul:item/diamond_nugget"
+    "layer0": "endgamehorizons:item/diamond_nugget"
   }
 }

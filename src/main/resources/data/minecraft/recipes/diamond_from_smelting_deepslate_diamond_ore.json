@@ -6,5 +6,5 @@
   "ingredient": {
     "item": "minecraft:deepslate_diamond_ore"
   },
-  "result": "survivaloverhaul:diamond_chunk"
+  "result": "endgamehorizons:diamond_chunk"
 }

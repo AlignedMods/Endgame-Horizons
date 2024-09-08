@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "net.aligned.survivaloverhaul.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+	],
+	"accessors": [
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
